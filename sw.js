@@ -1,1 +1,25 @@
-if(!self.define){let e,i={};const n=(n,s)=>(n=new URL(n+".js",s).href,i[n]||new Promise(i=>{if("document"in self){const e=document.createElement("script");e.src=n,e.onload=i,document.head.appendChild(e)}else e=n,importScripts(n),i()}).then(()=>{let e=i[n];if(!e)throw new Error(`Module ${n} didn’t register its module`);return e}));self.define=(s,o)=>{const c=e||("document"in self?document.currentScript.src:"")||location.href;if(i[c])return;let r={};const t=e=>n(e,c),d={module:{uri:c},exports:r,require:t};i[c]=Promise.all(s.map(e=>d[e]||t(e))).then(e=>(o(...e),r))}}define(["./workbox-9c191d2f"],function(e){"use strict";self.skipWaiting(),e.clientsClaim(),e.precacheAndRoute([{url:"registerSW.js",revision:"402b66900e731ca748771b6fc5e7a068"},{url:"index.html",revision:"6a92c4b2bd27bffc3fdf67842e1462df"},{url:"icons/icon.svg",revision:"e666f106d0c9f5c4ce49126ad284ea25"},{url:"icons/icon-512.png",revision:"14549cfceb2822969278e0f4594d309f"},{url:"icons/icon-192.png",revision:"3dd95e872e56f5570e0e1abeb2a804a6"},{url:"icons/apple-touch-icon.png",revision:"1e9d88551541a38b49e596d0fd526334"},{url:"assets/index-Tlhk681t.css",revision:null},{url:"assets/index-CzVzaH-c.js",revision:null},{url:"icons/apple-touch-icon.png",revision:"1e9d88551541a38b49e596d0fd526334"},{url:"icons/icon-192.png",revision:"3dd95e872e56f5570e0e1abeb2a804a6"},{url:"icons/icon-512.png",revision:"14549cfceb2822969278e0f4594d309f"},{url:"icons/icon.svg",revision:"e666f106d0c9f5c4ce49126ad284ea25"},{url:"manifest.webmanifest",revision:"c781f224d2a92954f04190e48cace256"}],{}),e.cleanupOutdatedCaches(),e.registerRoute(new e.NavigationRoute(e.createHandlerBoundToURL("index.html")))});
+
+self.addEventListener('install', (e) => {
+  self.skipWaiting();
+});
+self.addEventListener('activate', (e) => {
+  self.registration.unregister()
+    .then(() => self.clients.matchAll())
+    .then((clients) => {
+      clients.forEach((client) => {
+        if (client instanceof WindowClient)
+          client.navigate(client.url);
+      });
+      return Promise.resolve();
+    })
+    .then(() => {
+      self.caches.keys().then((cacheNames) => {
+        Promise.all(
+          cacheNames.map((cacheName) => {
+            return self.caches.delete(cacheName);
+          }),
+        );
+      })
+    });
+});
+    
