@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" width="100%" height="100%">
+  <!-- 背景：陽光黃 -->
+  <rect width="480" height="480" rx="32" fill="#FFBF36" />
+  
+  <!-- 幾何背景光環 -->
+  <g opacity="0.15">
+    <circle cx="240" cy="240" r="190" stroke="#242721" stroke-width="2" fill="none" stroke-dasharray="6 6" />
+  </g>
+
+  <!-- 地面瑜珈墊基線（無須任何健身椅，純地墊訓練） -->
+  <rect x="24" y="418" width="432" height="8" rx="4" fill="#DDA020" />
+
+  <!-- 中央動向箭頭徽章 -->
+  <g transform="translate(240, 248)">
+    <circle cx="0" cy="0" r="22" fill="#242721" />
+    <path d="M -8 0 L 8 0 M 3 -5 L 8 0 L 3 5" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+    <text x="0" y="36" font-family="'Noto Sans TC', sans-serif" font-size="11" font-weight="700" fill="#242721" text-anchor="middle">肘撐划船</text>
+  </g>
+
+  <!-- 左側：起始姿態 (STARTING POSE - 弓步肘撐腿，垂臂預備) -->
+  <g id="row-start" transform="translate(10, 0)">
+    <!-- 步驟標籤 -->
+    <rect x="68" y="34" width="80" height="22" rx="11" fill="#242721" opacity="0.85" />
+    <text x="108" y="49" font-family="'Barlow Condensed', sans-serif" font-size="11" font-weight="700" fill="#FFF4DD" text-anchor="middle" letter-spacing="1">1. 肘撐下垂</text>
+
+    <!-- 瑜珈墊上弓步腿部（前腿彎曲，後腿穩定向後延展） -->
+    <!-- 後腿 (右腿，向後伸展支撐於地) -->
+    <path d="M 126 264 L 176 348 L 192 414 L 176 414 L 162 352 L 112 272 Z" fill="#FFE1AB" />
+    <path d="M 172 408 L 198 408 C 202 408, 204 414, 204 418 L 170 418 Z" fill="#242721" />
+
+    <!-- 前腿 (左腿，屈膝約 90 度，大腿提供前臂支撐) -->
+    <!-- 前大腿 (斜向前下方) -->
+    <path d="M 78 266 L 42 274 L 38 316 L 76 308 Z" fill="#FFE1AB" />
+    <!-- 前小腿 (垂直穩固踩地) -->
+    <rect x="36" y="306" width="16" height="106" rx="6" fill="#FFE1AB" />
+    <!-- 前腳運動鞋 -->
+    <path d="M 30 408 L 56 408 C 60 408, 62 414, 62 418 L 26 418 Z" fill="#242721" />
+    <rect x="25" y="416" width="38" height="3" fill="#FFFFFF" />
+
+    <!-- 炭黑短褲 -->
+    <path d="M 68 238 L 132 238 L 126 274 L 70 274 Z" fill="#242721" />
+
+    <!-- 軀幹：背部平直呈 45 度自然前傾（脊椎中立，腰部完全不吃力） -->
+    <path d="M 76 244 L 140 188 L 128 156 L 64 212 Z" fill="#DD5605" />
+
+    <!-- 頭部與頸部（視線自然看斜前方地面） -->
+    <rect x="122" y="156" width="12" height="12" rx="2" fill="#F5CCA0" transform="rotate(-30 122 156)" />
+    <rect x="126" y="134" width="24" height="26" rx="5" fill="#FFE1AB" transform="rotate(-25 126 134)" />
+    <path d="M 124 134 C 126 116, 150 118, 152 136 L 146 146 L 122 144 Z" fill="#242721" />
+
+    <!-- 前支撐手：前臂直接平靠於左前大腿上！（完美取代 Bench，腰臀零負擔） -->
+    <path d="M 94 198 L 56 278 L 46 274 L 84 194 Z" fill="#FFE1AB" />
+    <!-- 手肘撐在膝大腿上方 -->
+    <circle cx="52" cy="276" r="7" fill="#F5CCA0" />
+
+    <!-- 划船手（工作臂）：從右肩垂直向下自然放鬆下垂持啞鈴 -->
+    <rect x="106" y="194" width="10" height="54" rx="5" fill="#FFE1AB" />
+    <rect x="106" y="244" width="9" height="54" rx="4.5" fill="#FFE1AB" />
+    <circle cx="111" cy="304" r="6" fill="#F5CCA0" />
+    <!-- 垂直下垂的啞鈴 -->
+    <g transform="translate(111, 308)">
+      <rect x="-14" y="-3" width="28" height="6" rx="2" fill="#777" />
+      <rect x="-17" y="-14" width="6" height="28" rx="2" fill="#242721" />
+      <rect x="11" y="-14" width="6" height="28" rx="2" fill="#242721" />
+    </g>
+  </g>
+
+  <!-- 右側：完成姿態 (ENDING POSE - 頂峰收縮，手肘貼身向後拉) -->
+  <g id="row-end" transform="translate(244, 0)">
+    <!-- 步驟標籤 -->
+    <rect x="68" y="34" width="80" height="22" rx="11" fill="#DD5605" />
+    <text x="108" y="49" font-family="'Barlow Condensed', sans-serif" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle" letter-spacing="1">2. 提肘夾背</text>
+
+    <!-- 腿部 (保持穩固弓步，雙腳平均分擔重心) -->
+    <!-- 後腿 -->
+    <path d="M 126 264 L 176 348 L 192 414 L 176 414 L 162 352 L 112 272 Z" fill="#FFE1AB" />
+    <path d="M 172 408 L 198 408 C 202 408, 204 414, 204 418 L 170 418 Z" fill="#242721" />
+
+    <!-- 前腿 -->
+    <path d="M 78 266 L 42 274 L 38 316 L 76 308 Z" fill="#FFE1AB" />
+    <rect x="36" y="306" width="16" height="106" rx="6" fill="#FFE1AB" />
+    <path d="M 30 408 L 56 408 C 60 408, 62 414, 62 418 L 26 418 Z" fill="#242721" />
+    <rect x="25" y="416" width="38" height="3" fill="#FFFFFF" />
+
+    <!-- 短褲 -->
+    <path d="M 68 238 L 132 238 L 126 274 L 70 274 Z" fill="#242721" />
+
+    <!-- 軀幹（維持 45 度平直不扭轉，背闊肌收縮） -->
+    <path d="M 76 244 L 140 188 L 128 156 L 64 212 Z" fill="#DD5605" />
+    <!-- 背部夾緊肌肉弧線 -->
+    <path d="M 86 218 Q 106 208 116 226" stroke="#C44800" stroke-width="3" stroke-linecap="round" fill="none" />
+
+    <!-- 頭部 -->
+    <rect x="122" y="156" width="12" height="12" rx="2" fill="#F5CCA0" transform="rotate(-30 122 156)" />
+    <rect x="126" y="134" width="24" height="26" rx="5" fill="#FFE1AB" transform="rotate(-25 126 134)" />
+    <path d="M 124 134 C 126 116, 150 118, 152 136 L 146 146 L 122 144 Z" fill="#242721" />
+
+    <!-- 前支撐手：依然穩穩支撐於左大腿 -->
+    <path d="M 94 198 L 56 278 L 46 274 L 84 194 Z" fill="#FFE1AB" />
+    <circle cx="52" cy="276" r="7" fill="#F5CCA0" />
+
+    <!-- 划船手（向上拉起！手肘後拉貼緊肋骨，啞鈴提到腰旁） -->
+    <!-- 上臂向後上方帶動 -->
+    <path d="M 108 190 L 136 172 L 144 182 L 116 200 Z" fill="#FFE1AB" />
+    <!-- 手肘最高點 -->
+    <circle cx="140" cy="177" r="6" fill="#F5CCA0" />
+    <!-- 前臂垂直向下提拉啞鈴 -->
+    <rect x="124" y="178" width="10" height="46" rx="5" fill="#FFE1AB" transform="rotate(-10 124 178)" />
+    <circle cx="128" cy="224" r="6" fill="#F5CCA0" />
+    <!-- 頂峰收縮位置的啞鈴（緊貼肋骨腰側） -->
+    <g transform="translate(128, 226)">
+      <rect x="-14" y="-3" width="28" height="6" rx="2" fill="#777" />
+      <rect x="-17" y="-14" width="6" height="28" rx="2" fill="#242721" />
+      <rect x="11" y="-14" width="6" height="28" rx="2" fill="#242721" />
+    </g>
+  </g>
+</svg>

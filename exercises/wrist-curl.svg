@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" width="100%" height="100%">
+  <!-- 背景：陽光黃 -->
+  <rect width="480" height="480" rx="32" fill="#FFBF36" />
+  
+  <!-- 幾何背景光環 -->
+  <g opacity="0.15">
+    <circle cx="240" cy="240" r="190" stroke="#242721" stroke-width="2" fill="none" stroke-dasharray="6 6" />
+  </g>
+
+  <!-- 地面瑜珈墊基線 -->
+  <rect x="24" y="418" width="432" height="8" rx="4" fill="#DDA020" />
+
+  <!-- 中央動向箭頭徽章 -->
+  <g transform="translate(240, 248)">
+    <circle cx="0" cy="0" r="22" fill="#242721" />
+    <path d="M -8 0 L 8 0 M 3 -5 L 8 0 L 3 5" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+    <text x="0" y="36" font-family="'Noto Sans TC', sans-serif" font-size="11" font-weight="700" fill="#242721" text-anchor="middle">手腕捲屈</text>
+  </g>
+  <!-- 左側：起始姿態 (手腕下放伸展) -->
+  <g id="wrist-start" transform="translate(120, 0)">
+    <rect x="-38" y="34" width="76" height="22" rx="11" fill="#242721" opacity="0.85" />
+    <text x="0" y="49" font-family="'Barlow Condensed', sans-serif" font-size="11" font-weight="700" fill="#FFF4DD" text-anchor="middle" letter-spacing="1">1. 腕部下垂</text>
+    <!-- 跪姿大腿 -->
+    <path d="M -40 360 L 20 360 L 10 416 L -50 416 Z" fill="#242721" />
+    <!-- 前臂平貼於大腿上，手腕伸出膝外懸空 -->
+    <path d="M -30 350 L 15 350 L 30 380" stroke="#FFE1AB" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+    <circle cx="32" cy="384" r="6" fill="#F5CCA0" />
+    <!-- 啞鈴在下方 -->
+    <g transform="translate(32, 388)">
+      <rect x="-10" y="-3" width="20" height="6" rx="2" fill="#777" />
+      <rect x="-13" y="-12" width="5" height="24" rx="2" fill="#242721" />
+      <rect x="8" y="-12" width="5" height="24" rx="2" fill="#242721" />
+    </g>
+  </g>
+
+  <!-- 右側：完成姿態 (手腕向上捲曲) -->
+  <g id="wrist-end" transform="translate(360, 0)">
+    <rect x="-38" y="34" width="76" height="22" rx="11" fill="#DD5605" />
+    <text x="0" y="49" font-family="'Barlow Condensed', sans-serif" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle" letter-spacing="1">2. 頂峰捲腕</text>
+    <path d="M -40 360 L 20 360 L 10 416 L -50 416 Z" fill="#242721" />
+    <!-- 前臂固定，手腕向上翹起 -->
+    <path d="M -30 350 L 15 350 L 28 325" stroke="#FFE1AB" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+    <ellipse cx="2" cy="344" rx="10" ry="5" fill="#F5CCA0" />
+    <circle cx="30" cy="320" r="6" fill="#F5CCA0" />
+    <g transform="translate(30, 316)">
+      <rect x="-10" y="-3" width="20" height="6" rx="2" fill="#777" />
+      <rect x="-13" y="-12" width="5" height="24" rx="2" fill="#242721" />
+      <rect x="8" y="-12" width="5" height="24" rx="2" fill="#242721" />
+    </g>
+  </g>
+
+</svg>

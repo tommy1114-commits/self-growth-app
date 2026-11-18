@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" width="100%" height="100%">
+  <!-- 背景：陽光黃 -->
+  <rect width="480" height="480" rx="32" fill="#FFBF36" />
+  
+  <!-- 幾何背景光環 -->
+  <g opacity="0.15">
+    <circle cx="240" cy="240" r="190" stroke="#242721" stroke-width="2" fill="none" stroke-dasharray="6 6" />
+  </g>
+
+  <!-- 地面瑜珈墊基線 -->
+  <rect x="24" y="418" width="432" height="8" rx="4" fill="#DDA020" />
+
+  <!-- 中央動向箭頭徽章 -->
+  <g transform="translate(240, 248)">
+    <circle cx="0" cy="0" r="22" fill="#242721" />
+    <path d="M -8 0 L 8 0 M 3 -5 L 8 0 L 3 5" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+    <text x="0" y="36" font-family="'Noto Sans TC', sans-serif" font-size="11" font-weight="700" fill="#242721" text-anchor="middle">側平舉至肩</text>
+  </g>
+  <!-- 左側：起始姿態 (微屈臂於腿前) -->
+  <g id="lat-start" transform="translate(120, 0)">
+    <rect x="-38" y="34" width="76" height="22" rx="11" fill="#242721" opacity="0.85" />
+    <text x="0" y="49" font-family="'Barlow Condensed', sans-serif" font-size="11" font-weight="700" fill="#FFF4DD" text-anchor="middle" letter-spacing="1">1. 大腿前預備</text>
+    <path d="M -16 94 C -16 76, 16 76, 18 92 L 18 106 L -16 106 Z" fill="#242721" />
+    <rect x="-14" y="92" width="28" height="32" rx="6" fill="#FFE1AB" />
+    <circle cx="4" cy="105" r="1.5" fill="#242721" />
+    <rect x="-7" y="122" width="14" height="16" fill="#F5CCA0" />
+    <path d="M -22 136 L 22 136 L 18 224 L -18 224 Z" fill="#DD5605" />
+    <!-- 雙臂於大腿前側下垂微聚 -->
+    <line x1="-22" y1="140" x2="-8" y2="236" stroke="#FFE1AB" stroke-width="10" stroke-linecap="round" />
+    <line x1="22" y1="140" x2="8" y2="236" stroke="#FFE1AB" stroke-width="10" stroke-linecap="round" />
+    <circle cx="-8" cy="240" r="6" fill="#F5CCA0" /><circle cx="8" cy="240" r="6" fill="#F5CCA0" />
+    <path d="M -20 222 L 20 222 L 23 274 L 4 274 L 0 238 L -4 274 L -23 274 Z" fill="#242721" />
+    <rect x="6" y="272" width="13" height="130" rx="6" fill="#FFE1AB" />
+    <rect x="-19" y="272" width="13" height="130" rx="6" fill="#FFE1AB" />
+    <rect x="-30" y="402" width="60" height="16" rx="4" fill="#242721" />
+  </g>
+
+  <!-- 右側：完成姿態 (雙臂如鷹翼水平舉起至肩高) -->
+  <g id="lat-end" transform="translate(360, 0)">
+    <rect x="-38" y="34" width="76" height="22" rx="11" fill="#DD5605" />
+    <text x="0" y="49" font-family="'Barlow Condensed', sans-serif" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle" letter-spacing="1">2. 展臂至肩</text>
+    <path d="M -16 94 C -16 76, 16 76, 18 92 L 18 106 L -16 106 Z" fill="#242721" />
+    <rect x="-14" y="92" width="28" height="32" rx="6" fill="#FFE1AB" />
+    <circle cx="4" cy="105" r="1.5" fill="#242721" />
+    <rect x="-7" y="122" width="14" height="16" fill="#F5CCA0" />
+    <path d="M -22 136 L 22 136 L 18 224 L -18 224 Z" fill="#DD5605" />
+    <!-- 雙臂兩側水平平舉 (微曲肘) -->
+    <path d="M -22 140 L -60 146 L -85 156" stroke="#FFE1AB" stroke-width="9" stroke-linecap="round" fill="none" />
+    <path d="M 22 140 L 60 146 L 85 156" stroke="#FFE1AB" stroke-width="9" stroke-linecap="round" fill="none" />
+    <circle cx="-85" cy="156" r="6" fill="#F5CCA0" /><circle cx="85" cy="156" r="6" fill="#F5CCA0" />
+    <g transform="translate(-85, 156)"><rect x="-3" y="-10" width="6" height="20" rx="2" fill="#777" /><rect x="-12" y="-12" width="24" height="5" rx="2" fill="#242721" /><rect x="-12" y="7" width="24" height="5" rx="2" fill="#242721" /></g>
+    <g transform="translate(85, 156)"><rect x="-3" y="-10" width="6" height="20" rx="2" fill="#777" /><rect x="-12" y="-12" width="24" height="5" rx="2" fill="#242721" /><rect x="-12" y="7" width="24" height="5" rx="2" fill="#242721" /></g>
+    <path d="M -20 222 L 20 222 L 23 274 L 4 274 L 0 238 L -4 274 L -23 274 Z" fill="#242721" />
+    <rect x="6" y="272" width="13" height="130" rx="6" fill="#FFE1AB" />
+    <rect x="-19" y="272" width="13" height="130" rx="6" fill="#FFE1AB" />
+    <rect x="-30" y="402" width="60" height="16" rx="4" fill="#242721" />
+  </g>
+
+</svg>

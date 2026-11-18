@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" width="100%" height="100%">
+  <!-- 背景：陽光黃 -->
+  <rect width="480" height="480" rx="32" fill="#FFBF36" />
+  
+  <!-- 幾何背景光環 -->
+  <g opacity="0.15">
+    <circle cx="240" cy="240" r="190" stroke="#242721" stroke-width="2" fill="none" stroke-dasharray="6 6" />
+  </g>
+
+  <!-- 地面基線 -->
+  <line x1="36" y1="424" x2="444" y2="424" stroke="#DDA020" stroke-width="3" stroke-linecap="round" />
+
+  <!-- 中央動向箭頭徽章 -->
+  <g transform="translate(240, 248)">
+    <circle cx="0" cy="0" r="22" fill="#242721" />
+    <path d="M -8 0 L 8 0 M 3 -5 L 8 0 L 3 5" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+    <text x="0" y="36" font-family="'Noto Sans TC', sans-serif" font-size="11" font-weight="700" fill="#242721" text-anchor="middle">屈髖下蹲</text>
+  </g>
+
+  <!-- 左側：起始姿態 (STARTING POSE - 站姿預備) -->
+  <g id="squat-start" transform="translate(120, 0)">
+    <!-- 步驟標籤 -->
+    <rect x="-38" y="34" width="76" height="22" rx="11" fill="#242721" opacity="0.85" />
+    <text x="0" y="49" font-family="'Barlow Condensed', sans-serif" font-size="11" font-weight="700" fill="#FFF4DD" text-anchor="middle" letter-spacing="1">1. 站立預備</text>
+
+    <!-- 頭部與五官 -->
+    <path d="M -16 94 C -16 76, 16 76, 18 92 L 18 106 L -16 106 Z" fill="#242721" />
+    <rect x="-14" y="92" width="28" height="32" rx="6" fill="#FFE1AB" />
+    <circle cx="-15" cy="108" r="3.5" fill="#F5CCA0" />
+    <circle cx="15" cy="108" r="3.5" fill="#F5CCA0" />
+    <circle cx="4" cy="105" r="1.5" fill="#242721" />
+    <path d="M 0 112 Q 4 114 8 112" stroke="#C48858" stroke-width="1.5" stroke-linecap="round" fill="none" />
+    <rect x="-7" y="122" width="14" height="16" fill="#F5CCA0" />
+
+    <!-- 軀幹：挺胸收腹 -->
+    <path d="M -22 136 L 22 136 L 18 224 L -18 224 Z" fill="#DD5605" />
+    <path d="M -10 136 Q 0 148 10 136 Z" fill="#FFE1AB" />
+
+    <!-- 雙手胸前相扣（維持平衡與胸腔中立） -->
+    <path d="M -22 140 L -6 172 L 6 172 L 22 140 Z" stroke="#FFE1AB" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+    <circle cx="0" cy="172" r="7.5" fill="#F5CCA0" />
+
+    <!-- 炭黑短褲 -->
+    <path d="M -20 222 L 20 222 L 23 274 L 4 274 L 0 238 L -4 274 L -23 274 Z" fill="#242721" />
+
+    <!-- 直立腿部（雙腳比肩稍寬，腳尖微朝外） -->
+    <!-- 左腿 (畫面左側) -->
+    <rect x="-21" y="272" width="14" height="66" rx="6" fill="#FFE1AB" />
+    <rect x="-20" y="334" width="12" height="68" rx="5" fill="#FFE1AB" />
+    <!-- 右腿 (畫面右側) -->
+    <rect x="7" y="272" width="14" height="66" rx="6" fill="#FFE1AB" />
+    <rect x="8" y="334" width="12" height="68" rx="5" fill="#FFE1AB" />
+
+    <!-- 運動鞋穩固貼地 -->
+    <path d="M -23 402 L -7 402 C -6 402, -5 408, -5 416 L -29 416 C -29 410, -27 402, -23 402 Z" fill="#242721" />
+    <rect x="-30" y="416" width="26" height="4" rx="2" fill="#FFFFFF" />
+    <path d="M 7 402 L 23 402 C 27 402, 29 410, 29 416 L 5 416 C 5 408, 6 402, 7 402 Z" fill="#242721" />
+    <rect x="4" y="416" width="26" height="4" rx="2" fill="#FFFFFF" />
+  </g>
+
+  <!-- 右側：完成姿態 (ENDING POSE - 臀部向後坐、大腿接近水平) -->
+  <g id="squat-end" transform="translate(360, 0)">
+    <!-- 步驟標籤 -->
+    <rect x="-38" y="34" width="76" height="22" rx="11" fill="#DD5605" />
+    <text x="0" y="49" font-family="'Barlow Condensed', sans-serif" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle" letter-spacing="1">2. 屈髖蹲下</text>
+
+    <!-- 頭部隨軀幹自然下移至 y=156 -->
+    <path d="M -16 158 C -16 140, 16 140, 18 156 L 18 170 L -16 170 Z" fill="#242721" />
+    <rect x="-14" y="156" width="28" height="30" rx="6" fill="#FFE1AB" />
+    <circle cx="-15" cy="172" r="3.5" fill="#F5CCA0" />
+    <circle cx="15" cy="172" r="3.5" fill="#F5CCA0" />
+    <circle cx="4" cy="169" r="1.5" fill="#242721" />
+    <path d="M 1 176 L 7 176" stroke="#242721" stroke-width="1.5" stroke-linecap="round" />
+    <rect x="-6" y="184" width="12" height="14" fill="#F5CCA0" />
+
+    <!-- 軀幹：保持背部平直微前傾，重心落於腳掌中央 -->
+    <path d="M -22 196 L 22 196 L 18 274 L -18 274 Z" fill="#DD5605" />
+    <path d="M -10 196 Q 0 208 10 196 Z" fill="#FFE1AB" />
+
+    <!-- 雙手胸前相扣平衡 -->
+    <path d="M -20 202 L -6 230 L 6 230 L 20 202 Z" stroke="#FFE1AB" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+    <circle cx="0" cy="230" r="7.5" fill="#F5CCA0" />
+
+    <!-- 炭黑短褲（屁股向後向下沉坐） -->
+    <path d="M -22 272 L 22 272 L 26 314 L 3 314 L 0 286 L -3 314 L -26 314 Z" fill="#242721" />
+
+    <!-- 幾何雙腿：大腿下坐至微高於膝蓋或接近水平，膝蓋順應腳尖方向打開（無內扣，自然協調） -->
+    <!-- 左大腿 (斜向前下至膝蓋 x=-32, y=328) -->
+    <path d="M -16 294 L -36 324 L -26 338 L -8 308 Z" fill="#FFE1AB" />
+    <!-- 左小腿 (膝蓋直落至左腳跟 x=-26, y=402) -->
+    <path d="M -36 324 L -30 402 L -18 402 L -24 336 Z" fill="#FFE1AB" />
+    <circle cx="-30" cy="328" r="8" fill="#F5CCA0" opacity="0.6" />
+
+    <!-- 右大腿 (對稱斜向前下至膝蓋 x=32, y=328) -->
+    <path d="M 16 294 L 36 324 L 26 338 L 8 308 Z" fill="#FFE1AB" />
+    <!-- 右小腿 -->
+    <path d="M 36 324 L 30 402 L 18 402 L 24 336 Z" fill="#FFE1AB" />
+    <circle cx="30" cy="328" r="8" fill="#F5CCA0" opacity="0.6" />
+
+    <!-- 雙腳穩固扎實踩地（腳跟不離地） -->
+    <path d="M -34 402 L -16 402 C -15 402, -14 408, -14 416 L -38 416 C -38 410, -36 402, -34 402 Z" fill="#242721" />
+    <rect x="-39" y="416" width="28" height="4" rx="2" fill="#FFFFFF" />
+    <path d="M 16 402 L 34 402 C 36 402, 38 410, 38 416 L 14 416 C 14 408, 15 402, 16 402 Z" fill="#242721" />
+    <rect x="13" y="416" width="28" height="4" rx="2" fill="#FFFFFF" />
+  </g>
+</svg>

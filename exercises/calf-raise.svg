@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" width="100%" height="100%">
+  <!-- 背景：陽光黃 -->
+  <rect width="480" height="480" rx="32" fill="#FFBF36" />
+  
+  <!-- 幾何背景光環 -->
+  <g opacity="0.15">
+    <circle cx="240" cy="240" r="190" stroke="#242721" stroke-width="2" fill="none" stroke-dasharray="6 6" />
+  </g>
+
+  <!-- 地面瑜珈墊基線 -->
+  <rect x="24" y="418" width="432" height="8" rx="4" fill="#DDA020" />
+
+  <!-- 中央動向箭頭徽章 -->
+  <g transform="translate(240, 248)">
+    <circle cx="0" cy="0" r="22" fill="#242721" />
+    <path d="M -8 0 L 8 0 M 3 -5 L 8 0 L 3 5" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+    <text x="0" y="36" font-family="'Noto Sans TC', sans-serif" font-size="11" font-weight="700" fill="#242721" text-anchor="middle">高踮腳尖</text>
+  </g>
+  <!-- 左側：起始姿態 (雙腳平踩) -->
+  <g id="calf-start" transform="translate(120, 0)">
+    <rect x="-38" y="34" width="76" height="22" rx="11" fill="#242721" opacity="0.85" />
+    <text x="0" y="49" font-family="'Barlow Condensed', sans-serif" font-size="11" font-weight="700" fill="#FFF4DD" text-anchor="middle" letter-spacing="1">1. 雙腳平踩</text>
+    <path d="M -16 94 C -16 76, 16 76, 18 92 L 18 106 L -16 106 Z" fill="#242721" />
+    <rect x="-14" y="92" width="28" height="32" rx="6" fill="#FFE1AB" />
+    <rect x="-7" y="122" width="14" height="16" fill="#F5CCA0" />
+    <path d="M -22 136 L 22 136 L 18 224 L -18 224 Z" fill="#DD5605" />
+    <line x1="-24" y1="140" x2="-24" y2="236" stroke="#FFE1AB" stroke-width="9" stroke-linecap="round" />
+    <line x1="24" y1="140" x2="24" y2="236" stroke="#FFE1AB" stroke-width="9" stroke-linecap="round" />
+    <path d="M -20 222 L 20 222 L 23 274 L 4 274 L 0 238 L -4 274 L -23 274 Z" fill="#242721" />
+    <!-- 雙腿筆直，腳掌平踩 -->
+    <rect x="6" y="272" width="13" height="130" rx="6" fill="#FFE1AB" /><rect x="-19" y="272" width="13" height="130" rx="6" fill="#FFE1AB" />
+    <rect x="-28" y="402" width="56" height="16" rx="4" fill="#242721" />
+  </g>
+
+  <!-- 右側：完成姿態 (後腳跟抬起，小腿緊繃收縮) -->
+  <g id="calf-end" transform="translate(360, 0)">
+    <rect x="-38" y="34" width="76" height="22" rx="11" fill="#DD5605" />
+    <text x="0" y="49" font-family="'Barlow Condensed', sans-serif" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle" letter-spacing="1">2. 頂峰踮起</text>
+    <!-- 全身稍微升高 15px -->
+    <g transform="translate(0, -15)">
+      <path d="M -16 94 C -16 76, 16 76, 18 92 L 18 106 L -16 106 Z" fill="#242721" />
+      <rect x="-14" y="92" width="28" height="32" rx="6" fill="#FFE1AB" />
+      <rect x="-7" y="122" width="14" height="16" fill="#F5CCA0" />
+      <path d="M -22 136 L 22 136 L 18 224 L -18 224 Z" fill="#DD5605" />
+      <line x1="-24" y1="140" x2="-24" y2="236" stroke="#FFE1AB" stroke-width="9" stroke-linecap="round" />
+      <line x1="24" y1="140" x2="24" y2="236" stroke="#FFE1AB" stroke-width="9" stroke-linecap="round" />
+      <path d="M -20 222 L 20 222 L 23 274 L 4 274 L 0 238 L -4 274 L -23 274 Z" fill="#242721" />
+      <rect x="6" y="272" width="13" height="130" rx="6" fill="#FFE1AB" /><rect x="-19" y="272" width="13" height="130" rx="6" fill="#FFE1AB" />
+      <!-- 小腿肌群隆起高光 -->
+      <ellipse cx="12" cy="326" rx="8" ry="14" fill="#F5CCA0" /><ellipse cx="-12" cy="326" rx="8" ry="14" fill="#F5CCA0" />
+      <!-- 踮腳尖的鞋子 (後跟高高懸空) -->
+      <path d="M -24 402 L -10 402 L -10 430 L -24 416 Z" fill="#242721" />
+      <path d="M 10 402 L 24 402 L 24 430 L 10 416 Z" fill="#242721" />
+    </g>
+  </g>
+
+</svg>

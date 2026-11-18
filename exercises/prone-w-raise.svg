@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" width="100%" height="100%">
+  <!-- 背景：陽光黃 -->
+  <rect width="480" height="480" rx="32" fill="#FFBF36" />
+  
+  <!-- 幾何背景光環 -->
+  <g opacity="0.15">
+    <circle cx="240" cy="240" r="190" stroke="#242721" stroke-width="2" fill="none" stroke-dasharray="6 6" />
+  </g>
+
+  <!-- 地面瑜珈墊基線 -->
+  <rect x="24" y="418" width="432" height="8" rx="4" fill="#DDA020" />
+
+  <!-- 中央動向箭頭徽章 -->
+  <g transform="translate(240, 248)">
+    <circle cx="0" cy="0" r="22" fill="#242721" />
+    <path d="M -8 0 L 8 0 M 3 -5 L 8 0 L 3 5" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+    <text x="0" y="36" font-family="'Noto Sans TC', sans-serif" font-size="11" font-weight="700" fill="#242721" text-anchor="middle">俯臥抬W</text>
+  </g>
+  <!-- 左側：起始姿態 (俯臥雙手成W放於地) -->
+  <g id="pronew-start" transform="translate(110, 0)">
+    <rect x="-38" y="34" width="76" height="22" rx="11" fill="#242721" opacity="0.85" />
+    <text x="0" y="49" font-family="'Barlow Condensed', sans-serif" font-size="11" font-weight="700" fill="#FFF4DD" text-anchor="middle" letter-spacing="1">1. 俯臥W字</text>
+    <rect x="-60" y="380" width="140" height="20" rx="6" fill="#DD5605" />
+    <circle cx="-75" cy="386" r="14" fill="#FFE1AB" />
+    <path d="M -86 376 C -86 364, -68 364, -68 376 Z" fill="#242721" />
+    <!-- 雙臂在兩側呈 W 形放在墊上 -->
+    <path d="M -40 380 L -25 350 L -45 330" stroke="#FFE1AB" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+    <circle cx="-45" cy="330" r="5" fill="#F5CCA0" />
+  </g>
+
+  <!-- 右側：完成姿態 (夾緊肩胛骨，雙臂懸空向上抬起) -->
+  <g id="pronew-end" transform="translate(350, 0)">
+    <rect x="-38" y="34" width="76" height="22" rx="11" fill="#DD5605" />
+    <text x="0" y="49" font-family="'Barlow Condensed', sans-serif" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle" letter-spacing="1">2. 夾胛抬臂</text>
+    <rect x="-60" y="380" width="140" height="20" rx="6" fill="#DD5605" />
+    <circle cx="-75" cy="386" r="14" fill="#FFE1AB" />
+    <path d="M -86 376 C -86 364, -68 364, -68 376 Z" fill="#242721" />
+    <!-- 雙臂向上懸空抬起 20px，後背夾緊 -->
+    <path d="M -40 380 L -25 320 L -45 295" stroke="#FFE1AB" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+    <circle cx="-45" cy="295" r="5" fill="#F5CCA0" />
+    <!-- 菱形肌收縮亮線 -->
+    <path d="M -30 365 Q -10 355 10 365" stroke="#DD5605" stroke-width="3" fill="none" />
+  </g>
+
+</svg>

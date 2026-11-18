@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" width="100%" height="100%">
+  <!-- 背景：陽光黃 -->
+  <rect width="480" height="480" rx="32" fill="#FFBF36" />
+  
+  <!-- 幾何背景光環 -->
+  <g opacity="0.15">
+    <circle cx="240" cy="240" r="190" stroke="#242721" stroke-width="2" fill="none" stroke-dasharray="6 6" />
+  </g>
+
+  <!-- 地面瑜珈墊基線 -->
+  <rect x="24" y="418" width="432" height="8" rx="4" fill="#DDA020" />
+
+  <!-- 中央動向箭頭徽章 -->
+  <g transform="translate(240, 248)">
+    <circle cx="0" cy="0" r="22" fill="#242721" />
+    <path d="M -8 0 L 8 0 M 3 -5 L 8 0 L 3 5" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+    <text x="0" y="36" font-family="'Noto Sans TC', sans-serif" font-size="11" font-weight="700" fill="#242721" text-anchor="middle">四足延展</text>
+  </g>
+  <!-- 左側：起始姿態 (四足跪姿) -->
+  <g id="birddog-start" transform="translate(110, 0)">
+    <rect x="-38" y="34" width="76" height="22" rx="11" fill="#242721" opacity="0.85" />
+    <text x="0" y="49" font-family="'Barlow Condensed', sans-serif" font-size="11" font-weight="700" fill="#FFF4DD" text-anchor="middle" letter-spacing="1">1. 四足跪姿</text>
+    <!-- 水平平背軀幹 -->
+    <rect x="-40" y="320" width="90" height="20" rx="6" fill="#DD5605" />
+    <circle cx="-52" cy="315" r="13" fill="#FFE1AB" />
+    <path d="M -64 308 C -64 296, -46 296, -46 308 Z" fill="#242721" />
+    <!-- 雙手垂直著地 -->
+    <line x1="-35" y1="335" x2="-35" y2="416" stroke="#FFE1AB" stroke-width="8" stroke-linecap="round" />
+    <!-- 雙膝垂直跪地 -->
+    <line x1="35" y1="335" x2="35" y2="416" stroke="#FFE1AB" stroke-width="10" stroke-linecap="round" />
+  </g>
+
+  <!-- 右側：完成姿態 (對角線手腳直線延伸) -->
+  <g id="birddog-end" transform="translate(350, 0)">
+    <rect x="-38" y="34" width="76" height="22" rx="11" fill="#DD5605" />
+    <text x="0" y="49" font-family="'Barlow Condensed', sans-serif" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle" letter-spacing="1">2. 水平伸展</text>
+    <rect x="-40" y="320" width="90" height="20" rx="6" fill="#DD5605" />
+    <circle cx="-52" cy="315" r="13" fill="#FFE1AB" />
+    <path d="M -64 308 C -64 296, -46 296, -46 308 Z" fill="#242721" />
+    <!-- 右手向前水平伸直 -->
+    <line x1="-35" y1="325" x2="-105" y2="325" stroke="#FFE1AB" stroke-width="8" stroke-linecap="round" />
+    <circle cx="-108" cy="325" r="4" fill="#F5CCA0" />
+    <!-- 左腿向後水平踢直與背成一直線 -->
+    <line x1="45" y1="325" x2="120" y2="325" stroke="#FFE1AB" stroke-width="10" stroke-linecap="round" />
+    <!-- 支撐手與支撐膝仍穩固貼地 -->
+    <line x1="-20" y1="335" x2="-20" y2="416" stroke="#FFE1AB" stroke-width="8" stroke-linecap="round" opacity="0.6" />
+    <line x1="25" y1="335" x2="25" y2="416" stroke="#FFE1AB" stroke-width="10" stroke-linecap="round" opacity="0.6" />
+  </g>
+
+</svg>

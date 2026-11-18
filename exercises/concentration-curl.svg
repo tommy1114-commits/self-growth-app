@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" width="100%" height="100%">
+  <!-- 背景：陽光黃 -->
+  <rect width="480" height="480" rx="32" fill="#FFBF36" />
+  
+  <!-- 幾何背景光環 -->
+  <g opacity="0.15">
+    <circle cx="240" cy="240" r="190" stroke="#242721" stroke-width="2" fill="none" stroke-dasharray="6 6" />
+  </g>
+
+  <!-- 地面瑜珈墊基線 -->
+  <rect x="24" y="418" width="432" height="8" rx="4" fill="#DDA020" />
+
+  <!-- 中央動向箭頭徽章 -->
+  <g transform="translate(240, 248)">
+    <circle cx="0" cy="0" r="22" fill="#242721" />
+    <path d="M -8 0 L 8 0 M 3 -5 L 8 0 L 3 5" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+    <text x="0" y="36" font-family="'Noto Sans TC', sans-serif" font-size="11" font-weight="700" fill="#242721" text-anchor="middle">肘抵腿彎舉</text>
+  </g>
+  <!-- 左側：起始姿態 (坐姿垂鈴) -->
+  <g id="conc-start" transform="translate(110, 0)">
+    <rect x="-38" y="34" width="76" height="22" rx="11" fill="#242721" opacity="0.85" />
+    <text x="0" y="49" font-family="'Barlow Condensed', sans-serif" font-size="11" font-weight="700" fill="#FFF4DD" text-anchor="middle" letter-spacing="1">1. 肘抵腿側</text>
+    <!-- 屈膝坐於墊上 -->
+    <path d="M -30 350 L 30 350 L 40 416 L -40 416 Z" fill="#242721" />
+    <!-- 雙膝分開屈膝 -->
+    <path d="M -40 370 L -60 340 L -46 414 Z" fill="#FFE1AB" />
+    <path d="M 40 370 L 60 340 L 46 414 Z" fill="#FFE1AB" />
+    <!-- 軀幹前傾 -->
+    <path d="M -18 260 L 18 260 L 22 352 L -22 352 Z" fill="#DD5605" />
+    <!-- 頭部 -->
+    <rect x="-12" y="210" width="24" height="26" rx="5" fill="#FFE1AB" />
+    <path d="M -14 212 C -14 196, 14 196, 16 210 L 16 220 L -14 220 Z" fill="#242721" />
+    <!-- 右臂肘部抵在右大腿內側，手臂向下垂持啞鈴 -->
+    <path d="M 16 270 L 42 330 L 42 380 Z" stroke="#FFE1AB" stroke-width="10" stroke-linecap="round" fill="none" />
+    <circle cx="42" cy="385" r="6" fill="#F5CCA0" />
+    <g transform="translate(42, 388)">
+      <rect x="-12" y="-3" width="24" height="6" rx="2" fill="#777" />
+      <rect x="-15" y="-12" width="6" height="24" rx="2" fill="#242721" />
+      <rect x="9" y="-12" width="6" height="24" rx="2" fill="#242721" />
+    </g>
+    <!-- 左手撐在左腿膝蓋 -->
+    <path d="M -16 270 L -45 328" stroke="#FFE1AB" stroke-width="10" stroke-linecap="round" />
+  </g>
+
+  <!-- 右側：完成姿態 (向上彎舉頂峰) -->
+  <g id="conc-end" transform="translate(350, 0)">
+    <rect x="-38" y="34" width="76" height="22" rx="11" fill="#DD5605" />
+    <text x="0" y="49" font-family="'Barlow Condensed', sans-serif" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle" letter-spacing="1">2. 頂峰收縮</text>
+    <path d="M -30 350 L 30 350 L 40 416 L -40 416 Z" fill="#242721" />
+    <path d="M -40 370 L -60 340 L -46 414 Z" fill="#FFE1AB" />
+    <path d="M 40 370 L 60 340 L 46 414 Z" fill="#FFE1AB" />
+    <path d="M -18 260 L 18 260 L 22 352 L -22 352 Z" fill="#DD5605" />
+    <rect x="-12" y="210" width="24" height="26" rx="5" fill="#FFE1AB" />
+    <path d="M -14 212 C -14 196, 14 196, 16 210 L 16 220 L -14 220 Z" fill="#242721" />
+    <!-- 右臂肘固定在腿內側，前臂向上屈臂拉起啞鈴 -->
+    <path d="M 16 270 L 42 334 L 28 290 Z" stroke="#FFE1AB" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+    <ellipse cx="32" cy="305" rx="6" ry="8" fill="#F5CCA0" />
+    <circle cx="26" cy="286" r="6" fill="#F5CCA0" />
+    <g transform="translate(26, 282)">
+      <rect x="-12" y="-3" width="24" height="6" rx="2" fill="#777" />
+      <rect x="-15" y="-12" width="6" height="24" rx="2" fill="#242721" />
+      <rect x="9" y="-12" width="6" height="24" rx="2" fill="#242721" />
+    </g>
+    <path d="M -16 270 L -45 328" stroke="#FFE1AB" stroke-width="10" stroke-linecap="round" />
+  </g>
+
+</svg>

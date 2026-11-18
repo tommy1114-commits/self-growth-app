@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" width="100%" height="100%">
+  <!-- 背景：陽光黃 -->
+  <rect width="480" height="480" rx="32" fill="#FFBF36" />
+  
+  <!-- 幾何背景光環 -->
+  <g opacity="0.15">
+    <circle cx="240" cy="240" r="190" stroke="#242721" stroke-width="2" fill="none" stroke-dasharray="6 6" />
+  </g>
+
+  <!-- 地面瑜珈墊基線 -->
+  <rect x="24" y="418" width="432" height="8" rx="4" fill="#DDA020" />
+
+  <!-- 中央動向箭頭徽章 -->
+  <g transform="translate(240, 248)">
+    <circle cx="0" cy="0" r="22" fill="#242721" />
+    <path d="M -8 0 L 8 0 M 3 -5 L 8 0 L 3 5" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+    <text x="0" y="36" font-family="'Noto Sans TC', sans-serif" font-size="11" font-weight="700" fill="#242721" text-anchor="middle">寬距下蹲</text>
+  </g>
+  <!-- 左側：起始姿態 (寬站距腳尖朝外) -->
+  <g id="sumo-start" transform="translate(120, 0)">
+    <rect x="-38" y="34" width="76" height="22" rx="11" fill="#242721" opacity="0.85" />
+    <text x="0" y="49" font-family="'Barlow Condensed', sans-serif" font-size="11" font-weight="700" fill="#FFF4DD" text-anchor="middle" letter-spacing="1">1. 寬距預備</text>
+    <path d="M -16 94 C -16 76, 16 76, 18 92 L 18 106 L -16 106 Z" fill="#242721" />
+    <rect x="-14" y="92" width="28" height="32" rx="6" fill="#FFE1AB" />
+    <circle cx="4" cy="105" r="1.5" fill="#242721" />
+    <rect x="-7" y="122" width="14" height="16" fill="#F5CCA0" />
+    <path d="M -22 136 L 22 136 L 18 224 L -18 224 Z" fill="#DD5605" />
+    <path d="M -20 142 L -5 172 L 5 172 L 20 142 Z" stroke="#FFE1AB" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+    <circle cx="0" cy="172" r="7" fill="#F5CCA0" />
+    <path d="M -20 222 L 20 222 L 26 274 L 4 274 L 0 238 L -4 274 L -26 274 Z" fill="#242721" />
+    <!-- 寬站距雙腿 (斜向兩側站立) -->
+    <path d="M -18 272 L -42 402 L -28 402 L -6 272 Z" fill="#FFE1AB" />
+    <path d="M 18 272 L 42 402 L 28 402 L 6 272 Z" fill="#FFE1AB" />
+    <rect x="-56" y="402" width="32" height="16" rx="4" fill="#242721" />
+    <rect x="24" y="402" width="32" height="16" rx="4" fill="#242721" />
+  </g>
+
+  <!-- 右側：完成姿態 (軀幹極度挺直，深蹲至大腿接近水平) -->
+  <g id="sumo-end" transform="translate(360, 0)">
+    <rect x="-38" y="34" width="76" height="22" rx="11" fill="#DD5605" />
+    <text x="0" y="49" font-family="'Barlow Condensed', sans-serif" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle" letter-spacing="1">2. 垂直沉坐</text>
+    <path d="M -16 160 C -16 142, 16 142, 18 158 L 18 172 L -16 172 Z" fill="#242721" />
+    <rect x="-14" y="158" width="28" height="30" rx="6" fill="#FFE1AB" />
+    <circle cx="4" cy="170" r="1.5" fill="#242721" />
+    <rect x="-6" y="186" width="12" height="14" fill="#F5CCA0" />
+    <!-- 軀幹垂直挺立 -->
+    <path d="M -22 198 L 22 198 L 18 276 L -18 276 Z" fill="#DD5605" />
+    <path d="M -20 204 L -5 232 L 5 232 L 20 204 Z" stroke="#FFE1AB" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+    <circle cx="0" cy="232" r="7" fill="#F5CCA0" />
+    <path d="M -22 274 L 22 274 L 28 320 L 3 320 L 0 290 L -3 320 L -28 320 Z" fill="#242721" />
+    <!-- 大腿外展水平下坐，膝蓋對齊腳尖 -->
+    <path d="M -16 296 L -52 334 L -44 350 L -8 312 Z" fill="#FFE1AB" />
+    <path d="M -52 334 L -42 402 L -28 402 L -38 344 Z" fill="#FFE1AB" />
+    <path d="M 16 296 L 52 334 L 44 350 L 8 312 Z" fill="#FFE1AB" />
+    <path d="M 52 334 L 42 402 L 28 402 L 38 344 Z" fill="#FFE1AB" />
+    <rect x="-56" y="402" width="32" height="16" rx="4" fill="#242721" />
+    <rect x="24" y="402" width="32" height="16" rx="4" fill="#242721" />
+  </g>
+
+</svg>

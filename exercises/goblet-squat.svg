@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" width="100%" height="100%">
+  <!-- 背景：陽光黃 -->
+  <rect width="480" height="480" rx="32" fill="#FFBF36" />
+  
+  <!-- 幾何背景光環 -->
+  <g opacity="0.15">
+    <circle cx="240" cy="240" r="190" stroke="#242721" stroke-width="2" fill="none" stroke-dasharray="6 6" />
+  </g>
+
+  <!-- 地面瑜珈墊基線 -->
+  <rect x="24" y="418" width="432" height="8" rx="4" fill="#DDA020" />
+
+  <!-- 中央動向箭頭徽章 -->
+  <g transform="translate(240, 248)">
+    <circle cx="0" cy="0" r="22" fill="#242721" />
+    <path d="M -8 0 L 8 0 M 3 -5 L 8 0 L 3 5" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+    <text x="0" y="36" font-family="'Noto Sans TC', sans-serif" font-size="11" font-weight="700" fill="#242721" text-anchor="middle">胸前托鈴深蹲</text>
+  </g>
+  <!-- 左側：起始姿態 (胸前托住單鈴) -->
+  <g id="goblet-start" transform="translate(120, 0)">
+    <rect x="-38" y="34" width="76" height="22" rx="11" fill="#242721" opacity="0.85" />
+    <text x="0" y="49" font-family="'Barlow Condensed', sans-serif" font-size="11" font-weight="700" fill="#FFF4DD" text-anchor="middle" letter-spacing="1">1. 胸前托鈴</text>
+    <path d="M -16 94 C -16 76, 16 76, 18 92 L 18 106 L -16 106 Z" fill="#242721" />
+    <rect x="-14" y="92" width="28" height="32" rx="6" fill="#FFE1AB" />
+    <circle cx="4" cy="105" r="1.5" fill="#242721" />
+    <rect x="-7" y="122" width="14" height="16" fill="#F5CCA0" />
+    <path d="M -22 136 L 22 136 L 18 224 L -18 224 Z" fill="#DD5605" />
+    <!-- 雙手在胸口捧抱單鈴 -->
+    <path d="M -22 140 L -6 166 L 6 166 L 22 140 Z" stroke="#FFE1AB" stroke-width="8" stroke-linecap="round" fill="none" />
+    <circle cx="0" cy="166" r="7" fill="#F5CCA0" />
+    <!-- 垂直高腳杯啞鈴 -->
+    <g transform="translate(0, 166)">
+      <rect x="-14" y="-12" width="28" height="6" rx="2" fill="#242721" />
+      <rect x="-4" y="-7" width="8" height="18" rx="2" fill="#777" />
+      <rect x="-14" y="9" width="28" height="6" rx="2" fill="#242721" />
+    </g>
+    <path d="M -20 222 L 20 222 L 23 274 L 4 274 L 0 238 L -4 274 L -23 274 Z" fill="#242721" />
+    <rect x="6" y="272" width="13" height="130" rx="6" fill="#FFE1AB" /><rect x="-19" y="272" width="13" height="130" rx="6" fill="#FFE1AB" />
+    <rect x="-30" y="402" width="60" height="16" rx="4" fill="#242721" />
+  </g>
+
+  <!-- 右側：完成姿態 (肘落膝內側，平穩深蹲) -->
+  <g id="goblet-end" transform="translate(360, 0)">
+    <rect x="-38" y="34" width="76" height="22" rx="11" fill="#DD5605" />
+    <text x="0" y="49" font-family="'Barlow Condensed', sans-serif" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle" letter-spacing="1">2. 穩固深蹲</text>
+    <path d="M -16 158 C -16 140, 16 140, 18 156 L 18 170 L -16 170 Z" fill="#242721" />
+    <rect x="-14" y="156" width="28" height="30" rx="6" fill="#FFE1AB" />
+    <circle cx="4" cy="169" r="1.5" fill="#242721" />
+    <rect x="-6" y="184" width="12" height="14" fill="#F5CCA0" />
+    <path d="M -22 196 L 22 196 L 18 274 L -18 274 Z" fill="#DD5605" />
+    <!-- 雙手托鈴於胸前 -->
+    <path d="M -20 202 L -6 226 L 6 226 L 20 202 Z" stroke="#FFE1AB" stroke-width="8" stroke-linecap="round" fill="none" />
+    <g transform="translate(0, 226)">
+      <rect x="-14" y="-12" width="28" height="6" rx="2" fill="#242721" /><rect x="-4" y="-7" width="8" height="18" rx="2" fill="#777" /><rect x="-14" y="9" width="28" height="6" rx="2" fill="#242721" />
+    </g>
+    <path d="M -22 272 L 22 272 L 26 314 L 3 314 L 0 286 L -3 314 L -26 314 Z" fill="#242721" />
+    <path d="M -16 294 L -36 324 L -26 338 L -8 308 Z" fill="#FFE1AB" />
+    <path d="M -36 324 L -30 402 L -18 402 L -24 336 Z" fill="#FFE1AB" />
+    <path d="M 16 294 L 36 324 L 26 338 L 8 308 Z" fill="#FFE1AB" />
+    <path d="M 36 324 L 30 402 L 18 402 L 24 336 Z" fill="#FFE1AB" />
+    <rect x="-38" y="402" width="26" height="16" rx="4" fill="#242721" />
+    <rect x="12" y="402" width="26" height="16" rx="4" fill="#242721" />
+  </g>
+
+</svg>
